@@ -6,6 +6,107 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Super Shield Contracting L.L.C</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background: linear-gradient(135deg, #1E2A38, #2F3E4E);
+      background-size: cover;
+      color: #fff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: rgba(0, 0, 0, 0.8);
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    header img {
+      max-height: 80px;
+    }
+
+    header h1 {
+      margin-top: 10px;
+      font-size: 2.5em;
+      color: #FFD700;
+      text-shadow: 1px 1px 2px #000;
+    }
+
+    .hero {
+      padding: 100px 20px;
+      text-align: center;
+      background: url('https://images.unsplash.com/photo-1590650516494-0c8e4c5d5e5e') no-repeat center center/cover;
+      color: #fff;
+      box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.7);
+    }
+
+    .hero h2 {
+      font-size: 3em;
+      margin-bottom: 20px;
+      color: #FFD700;
+      text-shadow: 2px 2px 4px #000;
+    }
+
+    .hero p {
+      font-size: 1.3em;
+      max-width: 700px;
+      margin: auto;
+      text-shadow: 1px 1px 3px #000;
+    }
+
+    .services {
+      background-color: #263545;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .services h3 {
+      font-size: 2.5em;
+      margin-bottom: 30px;
+      color: #FFD700;
+    }
+
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 30px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .service {
+      background-color: #1E2A38;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+      transform: perspective(600px) rotateY(1deg);
+      transition: transform 0.3s;
+      font-size: 1.1em;
+    }
+
+    .service:hover {
+      transform: perspective(600px) rotateY(0deg) scale(1.05);
+    }
+
+    footer {
+      background-color: #111;
+      padding: 30px 20px;
+      text-align: center;
+      font-size: 1em;
+      color: #aaa;
+    }
+
+    footer a {
+      color: #FFD700;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 
 <body>
@@ -22,21 +123,23 @@
   <section class="services">
     <h3>Our Services</h3>
     <div class="services-grid">
-      <div class="service">Wall & Floor Tiling</div>
-      <div class="service">Sanitary Installation</div>
-      <div class="service">Plumbing Works</div>
-      <div class="service">Painting & Finishing</div>
-      <div class="service">Concrete Restoration</div>
-      <div class="service">Concrete Works</div>
-      <div class="service">Waterproofing & Insulation</div>
-      <div class="service">Electrical Repairs</div>
-      <div class="service">Building Maintenance</div>
-      <div class="service">Pipe Repair & Installation</div>
+      <div class="service">🧱 Wall & Floor Tiling</div>
+      <div class="service">🚿 Sanitary Installation</div>
+      <div class="service">🔧 Plumbing Works</div>
+      <div class="service">🎨 Painting & Finishing</div>
+      <div class="service">🛠️ Concrete Restoration</div>
+      <div class="service">🏗️ Concrete Works</div>
+      <div class="service">💧 Waterproofing & Insulation</div>
+      <div class="service">💡 Electrical Repairs</div>
+      <div class="service">🏢 Building Maintenance</div>
+      <div class="service">🔩 Pipe Repair & Installation</div>
     </div>
   </section>
 
   <footer>
-    <p>📍 Dubai, UAE | 📞 +971 56 818 0323</p>
+    <p>📍 Dubai, UAE</p>
+    <p>📞 <a href="tel:+971507453679">+971 50 745 3679</a> / <a href="tel:+971555601628">+971 55 560 1628</a></p>
+    <p>📧 <a href="mailto:supershieldcontracting@gmail.com">supershieldcontracting@gmail.com</a></p>
     <p>Follow us on Instagram @supershieldcontracting</p>
     <p>© 2025 Super Shield Contracting L.L.C. All rights reserved.</p>
   </footer>
